@@ -1,4 +1,11 @@
-from binary_tree.bt_node import BTNode
+import sys
+from pathlib import Path
+
+
+path = str(Path(__file__).parent.parent / "binary_tree")
+sys.path.append(path)
+
+from bt_node import BTNode
 
 table = [
     ("A", ".-"),
@@ -72,10 +79,9 @@ if __name__ == "__main__":
     for ch in str:
         code = mc_tree.encode(ch)
         mlist.append(code)
-
     print("Morse Code: ", mlist)
-    print("Decoding  : ", end="")
 
+    print("Decoding  : ", end="")
     for code in mlist:
         ch = mc_tree.decode(code_tree, code)
         print(ch, end="")

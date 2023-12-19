@@ -11,3 +11,6 @@ class BTNode:
         self.data = elem
         self.left = left
         self.right = right
+
+    def is_leaf(self):
+        return self.left is None and self.right is None

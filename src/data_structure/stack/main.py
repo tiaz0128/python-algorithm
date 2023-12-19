@@ -1,5 +1,15 @@
-from check_brackets import check_brackets
+from stack import Stack
 
-if __name__ == "__main__":
-    str1 = "if ((x<0) && (y<3)"
-    print(check_brackets(str1))
+
+stack = Stack(10)
+
+msg = input("Input String: ")
+for char in msg:
+    stack.push(char)
+
+print(f"Output String: ", end="")
+while not stack.is_empty():
+    char = stack.pop()
+    print(char, end="")
+
+print("")

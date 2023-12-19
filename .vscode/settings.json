@@ -8,6 +8,6 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "code-runner.executorMap": {
-        "python": "call $workspaceRoot\\.venv\\Scripts\\activate.bat && set PYTHONIOENCODING=utf8 && python -u $fullFileName",
+        "python": "cd $dir && call $workspaceRoot\\.venv\\Scripts\\activate.bat && set PYTHONIOENCODING=utf8 && python -u $fullFileName",
     }
 }
