@@ -2,12 +2,6 @@ from adt import QueueADT
 
 
 class Queue(QueueADT):
-    def __init__(self, capacity) -> None:
-        self.array = [None] * capacity
-        self.capacity = capacity
-        self.front = 0
-        self.rear = 0
-
     def is_empty(self) -> bool:
         return self.front == self.rear
 

@@ -2,6 +2,12 @@ from abc import ABC, abstractmethod
 
 
 class QueueADT(ABC):
+    def __init__(self, capacity) -> None:
+        self.array = [None] * capacity
+        self.capacity = capacity
+        self.front = 0
+        self.rear = 0
+
     @abstractmethod
     def is_empty(self) -> bool:
         pass
