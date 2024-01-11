@@ -28,11 +28,11 @@ def setup(request):
 
 def test_3(input):
     # given
-    grid, answer = input
-    logging.info(f"grid={grid}, answer={answer}")
+    grid, expected = input
+    logging.info(f"grid={grid}, expected={expected}")
 
     # when
     result = solution(grid)
 
     # then
-    assert answer == result
+    assert expected == result
