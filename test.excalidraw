@@ -1,0 +1,173 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "rectangle",
+      "version": 186,
+      "versionNonce": 91595017,
+      "isDeleted": false,
+      "id": "cLanwUSar00NCjSuVw2CG",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "angle": 0,
+      "x": -1.4088791438509816,
+      "y": 30.458821893093045,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 354.1667366027832,
+      "height": 120.00001907348633,
+      "seed": 934664748,
+      "groupIds": [
+        "40woBtRKVgS0BpkKMDBGf"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1722259564241,
+      "link": null,
+      "locked": true
+    },
+    {
+      "type": "line",
+      "version": 192,
+      "versionNonce": 1861718023,
+      "isDeleted": false,
+      "id": "zJ5nXNjJErO2WJ8FkmA3u",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "angle": 0,
+      "x": 86.09113992963535,
+      "y": 30.458821893093045,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 0,
+      "height": 120.00001907348633,
+      "seed": 382842028,
+      "groupIds": [
+        "40woBtRKVgS0BpkKMDBGf"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1722259564241,
+      "link": null,
+      "locked": true,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          120.00001907348633
+        ]
+      ]
+    },
+    {
+      "type": "line",
+      "version": 231,
+      "versionNonce": 1242470377,
+      "isDeleted": false,
+      "id": "0ZFTKlRGVUajMELmPpONH",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "angle": 0,
+      "x": 176.26474744294387,
+      "y": 34.00081964617675,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 0,
+      "height": 120.00001907348633,
+      "seed": 177094444,
+      "groupIds": [
+        "40woBtRKVgS0BpkKMDBGf"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1722259564242,
+      "link": null,
+      "locked": true,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          120.00001907348633
+        ]
+      ]
+    },
+    {
+      "type": "line",
+      "version": 270,
+      "versionNonce": 364246823,
+      "isDeleted": false,
+      "id": "5LQQV_tPxfktpyk4B_LSX",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 2,
+      "opacity": 100,
+      "angle": 0,
+      "x": 263.7647474429439,
+      "y": 34.000781499204095,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 0,
+      "height": 120.00001907348633,
+      "seed": 458586540,
+      "groupIds": [
+        "40woBtRKVgS0BpkKMDBGf"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1722259564242,
+      "link": null,
+      "locked": true,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          120.00001907348633
+        ]
+      ]
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#fffce8"
+  },
+  "files": {}
+}
