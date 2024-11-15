@@ -1,8 +1,8 @@
 {      
-    "editor.inlineSuggest.enabled": false,
-    "python.autoComplete.extraPaths": [],
-    "python.analysis.autoSearchPaths": false,
-    "python.analysis.diagnosticMode": "openFilesOnly",
-    "python.analysis.useLibraryCodeForTypes": false,
-    "python.languageServer": "None"
+    // "editor.inlineSuggest.enabled": false,
+    // "python.autoComplete.extraPaths": [],
+    // "python.analysis.autoSearchPaths": false,
+    // "python.analysis.diagnosticMode": "openFilesOnly",
+    // "python.analysis.useLibraryCodeForTypes": false,
+    // "python.languageServer": "None"
 }

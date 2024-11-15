@@ -48,6 +48,6 @@ class BattleSimulation:
         return self.character.current_health
 
 
-def solution_1(bandage, health, attacks):
+def solution(bandage, health, attacks):
     simulation = BattleSimulation(bandage, health, attacks)
     return simulation.run()

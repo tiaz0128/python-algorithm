@@ -1,6 +1,6 @@
 import pytest
 
-from solution_1 import solution_1
+from programmers.p250137.solutions.s01 import solution
 
 
 @pytest.mark.parametrize(
@@ -15,6 +15,6 @@ from solution_1 import solution_1
 def test_battle_simulation(args):
     *inputs, expected = args
 
-    result = solution_1(*inputs)
+    result = solution(*inputs)
 
     assert expected == result
