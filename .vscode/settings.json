@@ -1,8 +1,32 @@
-{      
-    // "editor.inlineSuggest.enabled": false,
-    // "python.autoComplete.extraPaths": [],
-    // "python.analysis.autoSearchPaths": false,
-    // "python.analysis.diagnosticMode": "openFilesOnly",
-    // "python.analysis.useLibraryCodeForTypes": false,
-    // "python.languageServer": "None"
+{
+    "editor.inlineSuggest.enabled": false,
+    "python.autoComplete.extraPaths": [],
+    "python.analysis.autoSearchPaths": false,
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.useLibraryCodeForTypes": false,
+    "python.languageServer": "None",
+    // Python 파일에 대한 Ruff 설정
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+    },
+    // Jupyter Notebook에 대한 Ruff 설정
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit",
+        "notebook.source.organizeImports": "explicit"
+    },
+    // Ruff 언어 서버 설정
+    "ruff.nativeServer": "auto",
+    "ruff.logLevel": "info",
+    "cSpell.words": [
+        "addopts",
+        "pytest",
+        "pythonpath",
+        "testpaths"
+    ]
 }
